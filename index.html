@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiankai's Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <nav>
+        <a href="#" class="logo">Tiankai</a>
+        
+        <ul class="links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </ul>
+
+        <i class='bx bx-menu' id="menu"></i>
+        <a href="#contact" class ="btn">Contact Me</a>
+    </nav>
+        <section id="home">
+            <img src ="./assets/ProfilePic.jpg" alt="Tiankai's Profile Picture"/>
+            <div class="info-box">
+                <h1><span>Hi, I am Tiankai</span></h1>
+                <h3><span>I am a full-stack Developer</span> based in Montreal</h3>
+                <p> I'm a passionate full-stack developer with a knack for both front-end and back-end development. I love creating dynamic web applications using HTML, CSS, JavaScript, React, Node.js, and more. Always eager to learn and grow, I enjoy working with teams to bring projects to life⭐</p>
+            </div>
+
+            <div class="btn-box">
+            
+                <input type="button" value="View My CV" onclick="window.open('./assets/Tiankai Xu FS(EN).pdf');" size="20" class="btn"/>
+            </div>
+        </section>
+
+    <section id="about">
+        <div class="about-box">
+            <div class="about-info">
+                <h1><span>About Me</span></h1>
+                <p>
+                    I began as a gameplay programmer🎮, creating immersive gaming experiences. My passion for coding led me to full-stack development, where I now build dynamic web applications. I ❤️ travelling and experience different cultures🌎 
+                </p>               
+            </div>
+
+            <h2><span>Skills</span></h2>
+
+            <div class="skills">
+                <ul>
+                    <li>
+                        <span><i class='bx bx-chevron-right'></i>HTML</span>
+                    </li>
+                    <li>
+                        <span><i class='bx bx-chevron-right'></i>CSS</span>
+                    </li>
+                    <li>
+                        <span><i class='bx bx-chevron-right'></i>JavaScript</span>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <span><i class='bx bx-chevron-right'></i>React</span>
+                    </li>
+                    <li>
+                        <span><i class='bx bx-chevron-right'></i>Node</span>
+                    </li>
+                    <li>
+                        <span><i class='bx bx-chevron-right'></i>MySQL</span>
+                    </li>
+                </ul>
+                
+            </div>
+            <div class="skills">
+                <ul>
+                    <li>
+                        <span><i class='bx bx-chevron-right'></i>C++</span>
+                    </li>
+                    <li>
+                        <span><i class='bx bx-chevron-right'></i>C#</span>
+                    </li>
+                    <li>
+                        <span><i class='bx bx-chevron-right'></i>Lua</span>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <span><i class='bx bx-chevron-right'></i>Unreal Engine</span>
+                    </li>
+                    <li>
+                        <span><i class='bx bx-chevron-right'></i>Unity</span>
+                    </li>
+                    <li>
+                        <span><i class='bx bx-chevron-right'></i>Roblox</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <img src ="./assets/TypingDog.gif" alt="Typing dog"/>
+
+    </section>
+
+    <section id="projects">
+        <h1 class="header"><span>Projects</span></h1>
+
+        <div class="projects-container">
+            <div class="box">
+                <h1><span>Booking Restaurants Project</span></h1>
+                <p>Coming soon</p>
+                <p>Description: Web application for booking restaurants. Using MERN</p>
+                <img src="./assets/restautProject.jpeg" alt="Cuisine world map">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="header"><span>Contact</span></h1>
+
+        <div class="contact-me">
+            <h2>Get In Touch</h2>
+            <h3>If you love hot wings as much as I do, we should definitely chat!</h3>
+            <p class="contact-message">Let's wing it together—coding and chowing down on hot wings, because who says tech and taste buds can't team up for a spicy good time? 😄🍗💻</p>
+            <a class="btn sendMailBtn" href="mailto:tiankaixu8@gmail.com">CONTACT ME</a>
+        </div>
+
+        
+    </section>
+
+    <footer>
+        <div class="col-left">
+            <div class="col-box">
+                <span>
+                    <i class='bx bxs-edit-location'></i>
+
+                </span>
+                <span>
+                    Montreal, QC, Canada
+                </span>
+
+            </div>
+            <div class="col-box">
+                <span>
+                    <i class='bx bxs-phone'></i>
+
+                </span>
+                <span>
+                    438- 506-6881
+                </span>
+
+            </div>
+            <div class="col-box">
+                <span>
+                    <i class='bx bx-envelope'></i>
+
+                </span>
+                <span>
+                    tiankaixu8@gmail.com
+                </span>
+
+            </div>
+        </div>
+        <div class="col-right">
+            <span>Find Me Also On: </span>
+            
+            <div class="social-icons">
+                <span>
+                    <a href="https://www.linkedin.com/in/tiankai-xu-80b8a02b5"><i class='bx bxl-linkedin-square'></i></a>
+            </span>
+            <span>
+                <i class='bx bxl-github'></i>
+            </span>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
