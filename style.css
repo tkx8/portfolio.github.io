@@ -455,10 +455,7 @@ font-size: 2em;
         width:32vw ;
     }
 
-    #about{
-        width:140vw;
-    }
-
+  
     #about .skills{
         gap:3em;
     }
@@ -489,8 +486,15 @@ font-size: 2em;
 
 
 
-
-
+@media (max-width: 600px) {
+    .skills {
+      flex-direction: column;
+    }
+  
+    .skills ul {
+      flex: 1 1 100%;
+    }
+  }
 
 
 
