@@ -429,9 +429,11 @@ font-size: 2em;
 
     #about{
         flex-direction: column;
+        
     }
+
     #about img{
-        width: 32vw;
+        width: 42vw;
     }
     #about h1{
         font-size: 3em;
@@ -451,6 +453,10 @@ font-size: 2em;
     }
     #home img{
         width:32vw ;
+    }
+
+    #about{
+        width:140vw;
     }
 
     #about .skills{
